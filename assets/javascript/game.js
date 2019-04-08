@@ -35,10 +35,10 @@ var StartGame = function () {
                 "data-random": random
             });
 
-            crystal.css({
-                "background-image":"url('" + images[i] + "')",
+            // crystals.css({
+            //     "background-image":"url('" + images[i] + "')",
 
-            });
+            // });
 
         $(".crystals").append(crystal);
         

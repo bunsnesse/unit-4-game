@@ -21,3 +21,12 @@
 img{
     width: 50px;
 }
+
+h1{
+background: teal;
+}
+
+.directions{
+    background: teal;
+    text-align: center;
+}
