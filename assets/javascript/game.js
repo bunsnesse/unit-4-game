@@ -16,10 +16,10 @@ var StartGame = function () {
 
     $(".crystals").empty();
 
-    var image = ['https://www.thoughtco.com/thmb/TqQm3tRT4882EvcdDbqaogKDonI=/3609x2727/filters:fill(auto,1)/close-up-of-crystal-stone-glowing-in-darkroom-583919173-56f28e5d3df78ce5f83d7284.jpg',
-     'https://i.ytimg.com/vi/Yx65_XZrcBU/maxresdefault.jpg',
-     'https://cdn.shopify.com/s/files/1/0719/7981/products/1491254048_angel_aura_lemurian_seed_crystal_point_record_keeper___channeling_crystal_2000x.jpg',
-     'http://cdn.shopify.com/s/files/1/0719/7981/products/8599_2F1477349037_2Flemurian_seed_crystal_pleiadian_starbrary_master_dow_600x.jpg?v=1477349317'];
+    var image = ['assets/images.amethyst.jpg',
+     'assets/images.crystal.jpg',
+     'assets/images.crystalline.jpg',
+     'assets/images.quartz.jpg'];
 
     random_number = Math.floor(Math.random() * 102) + 19;
 
@@ -36,7 +36,7 @@ var StartGame = function () {
             });
 
             // crystals.css({
-            //     "background-image":"url('" + images[i] + "')",
+            //     "background-image": image[i],
 
             // });
 
