@@ -16,10 +16,10 @@ var StartGame = function () {
 
     $(".crystals").empty();
 
-    var image = ['assets/images.amethyst.jpg',
-     'assets/images.crystal.jpg',
-     'assets/images.crystalline.jpg',
-     'assets/images.quartz.jpg'];
+    var image = ["assets/images/amethyst.jpg",
+     "assets/images/crystal.jpg",
+     "assets/images/crystalline.jpg",
+     "assets/images/quartz.jpg"];
 
     random_number = Math.floor(Math.random() * 102) + 19;
 
@@ -32,12 +32,12 @@ var StartGame = function () {
         var crystal = $("<div>");
             crystal.attr({
                 "class": 'crystal',
+                "id": 'background' + i,
                 "data-random": random
             });
 
-            // crystals.css({
+            // crystal.css({
             //     "background-image": image[i],
-
             // });
 
         $(".crystals").append(crystal);

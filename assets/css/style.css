@@ -2,12 +2,12 @@
 .crystals{
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
+    border: 1px solid teal;
     align-items: center;
 
 }
 .crystal{
-    border: 1px solid green;
+    border: 1px solid black;
     height: 200px;
     width: 200px;
     border-radius: 4px;
@@ -18,15 +18,69 @@
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
-img{
-    width: 50px;
+#background0 {
+    background-image: url("../images/rainbow.jpg");
+}
+
+#background1 {
+    background-image: url("../images/crystal.jpg");
+}
+
+#background2 {
+    background-image: url("../images/crystalline.jpg");
+}
+
+#background3 {
+    background-image: url("../images/purple.jpg");
 }
 
 h1{
-background: teal;
+height: 40px;
+margin: 50px 700px 50px 700px;
+color: white;
+text-align: center;
+background: darkslateblue;
+text-decoration: underline;
+letter-spacing: 2px;
 }
 
 .directions{
     background: teal;
     text-align: center;
+    color: white;
+    margin: 10px 250px 10px 250px;
 }
+
+#lost {
+    background: teal;
+    align-self: auto;
+    text-align: center;
+    color: white;
+    margin: 0px 650px 0px 650px;
+}
+
+#win {
+    background: teal;
+    align-self: auto;
+    text-align: center;
+    color: white;
+    margin: 0px 650px 0px 650px;
+}
+
+#randomNumber {
+    background: teal;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px 550px 0px 550px;
+    color: white;
+
+}
+#previous {
+    background: teal;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px 550px 0px 550px;
+    color: white;
+
+}
+
