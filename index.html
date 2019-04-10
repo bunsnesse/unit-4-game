@@ -9,37 +9,41 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Crystal Collector</title>
 </head>
-<body>
-    <h1>Blank Box Collector!</h1>
+<body background="assets/images/folk-pattern-black.png">
+    <h1>Crystal Collector!</h1>
 
     <div class="directions">
         <p> 
+            <br>
             Directions:
         </p>
+        <br>
         <p>
             You will be given a random number at the start of the game.
         </p>
         <p>
-            There are four blank boxes below. By clicking on a blank box you will add a specific amount of points to your total score.
+            There are four crystals below. By clicking on a crystals you will add a specific amount of points to your total score.
         </p>
         <p>
             You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
         </p>
         <p>
-            The value of each blank box is hidden from you until you click on it.
+            The value of each crystals is hidden from you until you click on it.
         </p>
         <p>
-            Each time when the game starts, the game will change the values of each blank box. 
+            Each time when the game starts, the game will change the values of each crystals. 
         </p>
+        <br>
     </div>
 
     <p id = "randomNumber"></p>
     <div class="crystals">
 
     </div>
+
+    <P id = "previous"></P>
     <p id = "win"></p>
     <p id = "lost"></p>
-    <P id = "previous"></P>
 
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
